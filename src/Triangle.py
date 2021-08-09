@@ -24,4 +24,3 @@ class Triangle(Figure):
     @staticmethod
     def can_create(a, b, c) -> bool:
         return a + b > c and a + c > b and b + c > a
-
